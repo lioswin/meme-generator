@@ -59,3 +59,7 @@ font-family: "karla",sans-serif;
 border-radius: 5px;
 text-indent: 5px;
 }
+
+.meme-image{
+  max-width: 100%;
+}

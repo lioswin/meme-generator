@@ -3,7 +3,7 @@ import dataMeme from '../memesData.js'
 
 export default function Meme(){
 
-   const [memeImage, setMemeImage] = React.useState("");
+   const [memeImage, setMemeImage] = React.useState("https://i.imgflip.com/1ooaki.jpg");
 
 
 
@@ -12,7 +12,7 @@ const memesArray = dataMeme.data.memes;
 const randomNumber = Math.floor(Math.random() * memesArray.length);
 setMemeImage(memesArray[randomNumber].url);
 
-// console.log(url);
+console.log(memesArray[randomNumber].url);
 
 }
 
